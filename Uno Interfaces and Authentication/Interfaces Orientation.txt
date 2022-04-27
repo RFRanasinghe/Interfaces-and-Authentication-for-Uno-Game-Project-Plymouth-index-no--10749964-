@@ -1,0 +1,12 @@
+                        Orientation of previews
+
+activity_create_room_pg.xml                 >> Landscape
+activity_home_page.xml                      >>Landscape
+activity_join_now.xml                       >>Landscape
+activity_main.xml                           >>Portrait 
+activity_play_with_machine_page.xml         >>Landscape
+activity_playwithfriends_int.xml            >>Landscape
+activity_private_roomwith_id_page.xml       >>Landscape
+activity_register_page.xml                  >>portrait
+activity_schedule_game_page.xml             >>Landscape
+activity_welcome_page.xml                   >> portrait
