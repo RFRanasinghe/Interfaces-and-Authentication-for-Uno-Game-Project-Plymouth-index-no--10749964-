@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.unoapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.UnoApp">
+        <activity
+            android:name=".Home_Page"
+            android:screenOrientation="landscape"
+            android:exported="false" />
+        <activity
+            android:name=".PrivateRoomwithID_Page"
+            android:screenOrientation="landscape"
+            android:exported="false" />
+        <activity
+            android:name=".ScheduleGame_Page"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PlayWithMachine_Page"
+            android:exported="false" />
+        <activity
+            android:name=".playwithMachine_Page"
+            android:exported="false" />
+        <activity
+            android:name=".playwithfriendsInt"
+            android:exported="false" />
+        <activity
+            android:name=".JoinNow_Page"
+            android:exported="false" />
+        <activity
+            android:name=".Create_Room_pg"
+            android:exported="false" />
+        <activity
+            android:name=".Register_Page"
+            android:exported="false" />
+        <activity
+            android:name=".Welcome_Page"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
